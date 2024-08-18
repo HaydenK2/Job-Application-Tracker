@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+
+
+.app-about-container {
+    width:100vw;
+    background-image: linear-gradient(to bottom left, rgb(85, 170, 255), rgb(0, 22, 187));
+}
+.app-about-details {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.app-about-title {
+    color: white;
+    font-size: 50px;
+}
+.app-about-header1{
+    color: white;
+
+    font-size: 45px;
+}
+.app-about-description-container {
+    color: white;
+
+    /* background-color: Green; */
+    text-align:center;
+    font-size: 15px;
+    width: 550px;
+}

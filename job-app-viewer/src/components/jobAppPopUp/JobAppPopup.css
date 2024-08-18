@@ -1,0 +1,41 @@
+.job-app-popup {
+    position: fixed;
+    top:0;
+    left:0;
+    width:100%;
+    height:100vh;
+    background-color: rgba(0,0,0,0.2);
+ 
+    display:flex;
+    justify-content: center;
+    align-items: center
+}
+.job-app-inner-popup{
+    position: relative;
+    padding: 32px;
+    width: 100%;
+    max-width:450px;
+    height: 450px;
+    background-color:rgb(46, 158, 255);;
+    display:flex;
+    border-radius:15px;
+    flex-direction: column;
+}
+
+.job-app-inner-popup .close-btn {
+    position: absolute;
+    top:16px;
+    right:16px;
+
+    background-color: white;
+    width: 80px;
+    height: 30px;
+    border: none;
+    border-radius: 10px;
+    font-size:15px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+.job-app-inner-popup .close-btn:hover {
+    background-color: lightgray;
+}

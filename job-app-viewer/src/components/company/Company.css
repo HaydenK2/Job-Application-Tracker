@@ -1,0 +1,47 @@
+.company-carousel-container {
+    width:100vw;
+    background-color: white;
+}
+
+.company-logo {
+    height: 300px;
+}
+.company-logo > img {
+    height: 100%;
+    width: 100%;
+}
+.company-card-container {
+    height: 400px;
+    background-color: white;
+}
+.company-card {
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-image: linear-gradient(to bottom, rgba(0,0,0,0), rgb(110, 180, 255))
+}
+.company-details {
+    position: absolute;
+    top:50px;
+    display: flex;
+    justify-content: space-evenly;
+    width:100%;
+}
+.company-title-info-container {
+
+
+}
+.company-title {
+    font-size: 50px;
+    color: white;
+    display: flex;
+    align-items: center;
+    text-shadow: 2px 2px rgba(0, 0, 0, 0.401);
+}
+.company-info-button-container {
+    size:"sm";
+    align-items: center;
+    color: azure;
+
+}

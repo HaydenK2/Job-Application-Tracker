@@ -25,10 +25,12 @@ public class JobAppService {
      * @return
      */
     public List<JobApp> allJobs() {
+        System.out.println(jobAppRepository.findAll().toString());
         return jobAppRepository.findAll();
     }
 
     public Optional<JobApp> singleJob(String companyName) {
+
         return jobAppRepository.findJobByCompanyName(companyName);
     }
 

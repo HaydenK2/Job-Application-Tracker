@@ -19,10 +19,16 @@ public class JobApp {
     private ObjectId id;
 
     private String companyName;
-
     private String companyInfo;
     private String jobTitle;
     private String jobLink;
     private String appStatus;
+    public JobApp(String companyName, String companyInfo, String jobTitle, String jobLink, String appStatus) {
+        this.companyName = companyName;
+        this.companyInfo = companyInfo;
+        this.jobTitle = jobTitle;
+        this.jobLink = jobLink;
+        this.appStatus = appStatus;
+    }
 
 }

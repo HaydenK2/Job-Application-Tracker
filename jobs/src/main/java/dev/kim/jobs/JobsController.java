@@ -10,16 +10,13 @@ import java.util.List;
 import java.util.Map;
 import java.util.Optional;
 
+@CrossOrigin(origins = "*")
 @RestController
 @RequestMapping("/api/v1/jobs")
 public class JobsController {
     @Autowired
     private JobAppService jobAppService;
-    @GetMapping("/")
-    public String apiRoot() {
-        System.out.println("home!");
-        return "Hello World";
-    }
+
 
     @GetMapping
     public ResponseEntity<List<JobApp>> getAllJobs() {
@@ -37,7 +34,7 @@ public class JobsController {
         return new ResponseEntity<Optional<JobApp>>(jobAppService.singleJob(companyName), HttpStatus.OK);
     }
 
-    @PostMapping("/ja")
+    @PostMapping("/addNewJobApp")
     public ResponseEntity<JobApp> createJobApp(@RequestBody Map<String, String> payload) {
         return new ResponseEntity<JobApp>(jobAppService.createJobApp(payload.get("companyName"), payload.get("companyInfo"), payload.get("jobTitle"), payload.get("jobLink"), payload.get("appStatus")), HttpStatus.OK);
     }
