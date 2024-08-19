@@ -9,6 +9,7 @@ const AppInfo = () => {
             <div className="app-about-title">
                 Welcome to My Job App Viewer!
             </div>
+            <br/>
             <div className="app-about-header1">
                 About This Application
             </div>

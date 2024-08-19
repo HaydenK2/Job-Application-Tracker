@@ -113,7 +113,7 @@ const JobApplications = ({getJobAppData, jobApps, setJobApps}) => {
                                         Job Position
                                     </div>
                                     <div className="job-app-data-label-container">
-                                        Job Link
+                                        Job Application Link
                                     </div>
                                     <div className="job-app-data-label-container">
                                         Application Status
