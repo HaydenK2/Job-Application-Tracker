@@ -1,4 +1,4 @@
-# Job-Application-Viewer
+# My Job App Viewer
 
 
 ## Project Description
