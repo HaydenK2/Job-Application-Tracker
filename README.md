@@ -4,7 +4,7 @@
 ## Project Description
 Welcome to My Job App Viewer! This is a web application that allows the user to do the following to their job applications:
 
-1) Add jobs they applied to!
+1) Add jobs they applied to
 2) Update a job application
 3) Remove a job application
 
