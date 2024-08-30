@@ -1,8 +1,8 @@
-# My Job App Viewer
+# My Job App Tracker
 
 
 ## Project Description
-Welcome to My Job App Viewer! This is a web application that allows the user to do the following to their job applications:
+Welcome to My Job App Tracker! This is a web application that allows the user to do the following to their job applications:
 
 1) Add jobs they applied to
 2) Update a job application
